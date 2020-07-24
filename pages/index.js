@@ -11,7 +11,7 @@ import {
   fontWeight,
   Input,
 } from '@ticketswap/solar'
-import { MagnifyingGlass } from '@ticketswap/comets'
+import { MagnifyingGlass, TicketSwap } from '@ticketswap/comets'
 import styled from '@emotion/styled'
 import { WidePageLayout, NarrowPageLayout } from '../components/PageLayout'
 import icons from '../icons'
@@ -100,6 +100,13 @@ const ColorBlock = styled.div`
   width: 56px;
   height: 56px;
   cursor: pointer;
+`
+
+const Footer = styled.footer`
+  text-align: center;
+  margin-top: ${space[48]};
+  padding: ${space[32]};
+  border-top: 1px solid ${color.stardust};
 `
 
 export default function Home() {
@@ -223,6 +230,10 @@ export default function Home() {
           </IconGrid>
         </WidePageLayout>
       </main>
+
+      <Footer>
+        <TicketSwap size={48} color={'#00b6f0'} />
+      </Footer>
 
       <style jsx global>{`
         html,
