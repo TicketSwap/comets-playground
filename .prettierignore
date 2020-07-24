@@ -1,0 +1,9 @@
+node_modules
+.next
+etc
+.circleci
+.github
+build
+dist
+coverage
+public/static/locales
