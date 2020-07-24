@@ -111,7 +111,7 @@ const Footer = styled.footer`
 
 export default function Home() {
   const [color, setColor] = useState('#00b6f0')
-  const [size, setSize] = useState(32)
+  const [size, setSize] = useState(88)
   const [search, setSearch] = useState('')
   const [showColorPicker, setShowColorPicker] = useState(false)
 
