@@ -17,3 +17,17 @@ yarn
 # run dev server on port 4000
 yarn dev
 ```
+
+## Getting comets
+
+Using npm
+
+```bash
+npm i @ticketswap/comets @emotion/core @emotion/styled
+```
+
+Using yarn
+
+```bash
+yarn add @ticketswap/comets @emotion/core @emotion/styled
+```
