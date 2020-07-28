@@ -1149,6 +1149,14 @@
     react "^16.11.0"
     react-dom "^16.11.0"
 
+"@ticketswap/comets@^2.9.0":
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/@ticketswap/comets/-/comets-2.9.0.tgz#03e5e425a0d1ba96750c932cbedd81305af42ba0"
+  integrity sha512-jjtQsJDmBjLj9WFtJOfcONX8Yp2y/SlSALqzfFzybF3Ugu7QWP2DwLmNXZRej/Y8Oh34Xa4Id6+MwGkYcptWFg==
+  dependencies:
+    react "^16.11.0"
+    react-dom "^16.11.0"
+
 "@ticketswap/solar@^12.5.0":
   version "12.5.0"
   resolved "https://registry.yarnpkg.com/@ticketswap/solar/-/solar-12.5.0.tgz#85697cc557036e3e097a035571d2a3dc60de7ce4"
