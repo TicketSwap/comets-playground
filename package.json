@@ -8,6 +8,9 @@
     "start": "next start",
     "export": "next export"
   },
+  "resolutions": {
+    "object-path": "^0.11.5"
+  },
   "dependencies": {
     "@emotion/core": "^10.0.35",
     "@emotion/styled": "^10.0.27",
@@ -16,6 +19,7 @@
     "emotion": "^10.0.27",
     "emotion-server": "^10.0.27",
     "next": "9.5.5",
+    "object-path": "^0.11.5",
     "react": "16.14.0",
     "react-color": "^2.18.1",
     "react-dom": "16.14.0"
